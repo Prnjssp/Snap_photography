@@ -38,6 +38,9 @@ body {
     }
   
     .carousel-caption{
-      background-color: rgba(245, 245, 245, 0.445);
+      background-color: rgba(250, 238, 238, 0.596);
     } 
+    nav{
+        background-color: #f8f8f8;
+    }
    
