@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      color: #444;
+      background-color: #fff;
+    }
+    .hero {
+      background-image: url('img/bg1.png');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      position: relative;
+      fi
+      
+    }
+    .hero::after {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .hero-text {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      color: #fff;
+      z-index: 1;
+    }
+    h2, h3 {
+      font-family: 'Georgia', serif;
+      margin-top: 30px;
+    }
+    .btn-custom {
+      border: 1px solid #ccc;
+      background-color: transparent;
+      padding: 8px 20px;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      transition: 0.3s ease;
+    }
+    .btn-custom:hover {
+      background-color: #444;
+      color: #fff;
+    }
+    .fact-icon {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    footer {
+      padding: 30px 0;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+    .overlay {
+            position: relative;
+            display: inline-block;
+        }
+        .overlay img {
+            width: 100%;
+            height: auto;
+        }
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 0.7rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .welcome-section {
+            background-color: #f8f9fa;
+            padding: 50px 20px;
+            text-align: center;
+        }
+  </style>
+</head>
+<body>
