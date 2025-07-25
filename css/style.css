@@ -1,6 +1,6 @@
 body 
     {
-      font-family: 'Gill Sans', 'Calibri', sans-serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: #444;
       background-color: #fff;
     }
@@ -11,7 +11,7 @@ body
       background-position: center;
       height: 400px;
       position: relative;
-      fi
+      
       
     }
     .hero::after 
@@ -80,6 +80,7 @@ body
             width: 100%;
             height: auto;
     }
+    /* #E9E1D9 */
     .overlay-text 
     {
             position: absolute;
