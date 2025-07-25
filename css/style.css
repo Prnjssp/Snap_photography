@@ -1,12 +1,12 @@
 body 
     {
-      font-family: 'Georgia', serif;
+      font-family: 'Gill Sans', 'Calibri', sans-serif;
       color: #444;
       background-color: #fff;
     }
     .hero 
     {
-      background-image: url('img/bg1.png');
+      background-image: url('../img/bg1.png');
       background-size: cover;
       background-position: center;
       height: 400px;
@@ -55,6 +55,16 @@ body
       border-radius: 10px;
       margin-bottom: 15px;
     }
+    .service-card 
+    {
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover 
+    {
+        background-color: #f8f9fa; /* Change to a light gray color on hover */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    }
+
     footer {
       padding: 30px 0;
       background-color: #f8f8f8;
