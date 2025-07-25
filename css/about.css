@@ -4,14 +4,13 @@ body {
       color: #444;
       background-color: #fff;
     }
-    
-   
-    
-    h2, h3 {
+    h2, h3 
+    {
       font-family: 'Georgia', serif;
       margin-top: 30px;
     }
-    .btn-custom {
+    .btn-custom 
+    {
       border: 1px solid #ccc;
       background-color: transparent;
       padding: 8px 20px;
@@ -36,7 +35,6 @@ body {
       background-color: #f8f8f8;
       text-align: center;
     }
-  
     .carousel-caption{
       background-color: rgba(250, 238, 238, 0.596);
     } 
