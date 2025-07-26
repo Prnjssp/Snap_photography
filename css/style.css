@@ -11,8 +11,10 @@ body
       background-position: center;
       height: 500px;
       position: relative;
-      
-      
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; /* Aligns content to the bottom */
+      padding: 20px;
     }
     .hero::after 
     {
@@ -76,8 +78,8 @@ body
     }
     .service-card:hover 
     {
-        background-color: #f8f9fa; /* Change to a light gray color on hover */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+        background-color: #f8f9fa;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
     }
 
     footer {
@@ -104,7 +106,7 @@ body
             transform: translate(-50%, -50%);
             color: white;
             font-size: 0.7rem;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(183, 177, 177, 0.868);
             padding: 10px;
             border-radius: 5px;
      }
